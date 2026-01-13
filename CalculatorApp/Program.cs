@@ -1,8 +1,10 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 using Avalonia;
 
 namespace CalculatorApp;
 
+[ExcludeFromCodeCoverage]
 internal class Program
 {
     // Initialization code. Don't use any Avalonia, third-party APIs or any
